@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Beograd </title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="shortcut icon" href="slike/grb.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div id="omot">
+			<div id="header">
+				<div id="zaglavlje">
+					<div id="logo">
+						<a href="index.html"><img src="slike/grb.jpg" alt="Grb"/></a>
+					</div>
+					<div id="naslov">
+						<a href="index.html"><h1>Beograd</h1></a>
+					</div>
+					<div id="search">
+						<form action="" method="GET" cellpadding="0" id="searchform">
+							<input type="search" size="12" class="search"/>
+							<input class="button" type="submit" name="Searchbutton" value="Search">
+						</form>
+					</div>
+					<div id="jezik">
+						<select name="izborJezika">
+							<option value="srb">Srpski</option>
+							<option value="eng">English</option>
+						</select>
+					</div>
+					<div class="cleaner">
+					</div>
+				</div>
+			</div>
+			<div id="slika">
+				<img src="slike/bg.jpg" alt="Beograd"/>
+			</div>
+			<div id="meni">
+				<div id="meniTekst">
+					<ul>
+						<li><a href="index.html"><i class="fas fa-home"></i></a></li>
+						<li> <a href="geografija.html"> Geografija</a></li>
+						<li> <a href="istorija.html"> Istorija </a></li>
+						<li> <a href="znamenitosti.html"> Znamenitosti</a></li>
+						<li> <a href="kultura.html"> Kultura</a></li>
+						<li> <a href="religija.html"> Religija </a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="sredina">
+				<div class="okvirSredine">
+					<h2>Unesite podatke:</h2>
+					<div class="uOkvir">
+						<form method="post" action="1.php">
+							<p>Ime i prezime:</p>
+							<input type="text" name="ime"/>
+							<hr/>
+							<p>Lozinka:</p>
+							<input type="password" name="lozinka"/>
+							<hr/>
+							<p>Pol:</p>
+							<input type="radio" name="rbLista" value="m"/>M<br/>
+							<input type="radio" name="rbLista" value="z"/>Ž
+							<hr/>
+							<p>Komentar:</p>
+							<textarea name="ptPolje"></textarea>
+							<hr/>
+							<input type="submit" name="btnSubmit" value="Pošalji"/>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="futer">
+				<div class="dole">
+					<div class="kolone">
+						<h4>О Beogradu</h4>
+						<ul>
+							<li><a href="geografija.html"><i class="fas fa-globe"></i> Geografija </a></li>
+							<li><a href="istorija.html"><i class="far fa-clock"></i> Istorija </a></li>
+							<li><a href="znamenitosti.html"><i class="fas fa-university"></i> Znamenitosti </a></li>
+							<li><a href="kultura.html"><i class="fas fa-theater-masks"></i> Kultura </a></li>
+							<li><a href="religija.html"><i class="fas fa-church"></i> Religija </a></li>
+						</ul>
+					</div>
+					<div class="kolone">
+						<h4>Ostalo</h4>
+						<ul>
+							<li><a href="galerija.html"><i class="fas fa-camera-retro"></i> Foto galerija</a></li>
+							<li><a href="desavanja.html"><i class="fas fa-calendar-alt"></i> Dešavanja</a></li>
+							<li><a href="kontakt.html"><i class="fa fa-phone"></i> Kontakt </a></li>
+						</ul>
+					</div>
+					<div class="kolone">
+						<h4>Pratite nas</h4>
+						<ul class="ver">
+						  <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						  <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						  <li><a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="cleaner">
+					</div>
+					<div id="copyright">
+						<p>&copy; Copyright 2018 MR</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
